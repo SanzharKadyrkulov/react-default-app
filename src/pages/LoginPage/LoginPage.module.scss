@@ -1,0 +1,38 @@
+.screen {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #49d3ff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    margin: 0 auto;
+
+    background-color: #d9d9d9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 60px;
+
+    input {
+      margin-bottom: 20px;
+    }
+
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #d04949;
+      border: none;
+      color: white;
+    }
+    @media screen and (min-width: 425px) {
+      transform: scale(1.3);
+    }
+  }
+}
